@@ -30,6 +30,6 @@ public class SimpleUnitTest {
 
     @Test
     public void simpleAddition() throws Exception {
-        assertEquals(4+5, 8);
+        assertEquals(4+4, 8);
     }
 }

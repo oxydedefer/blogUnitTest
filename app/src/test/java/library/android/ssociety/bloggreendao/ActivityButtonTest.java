@@ -17,7 +17,8 @@ import static org.hamcrest.Matchers.equalTo;
  */
 
 @RunWith(RobolectricTestRunner.class)
-@Config(constants = BuildConfig.class)
+@Config(constants = BuildConfig.class,
+application = ApplicationForRobolectric.class)
 public class ActivityButtonTest {
 
     @Test

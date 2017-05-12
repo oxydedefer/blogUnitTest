@@ -21,10 +21,10 @@ public class App extends Application {
         super.onCreate();
         ApplicationInfo foo = getApplicationInfo();
 
-        if (isRoboUnitTest())
-        {
-            ENCRYPTED = false;
-        }
+//        if (isRoboUnitTest())
+//        {
+//            ENCRYPTED = false;
+//        }
 
 
         DaoMaster.DevOpenHelper helper = new DaoMaster.DevOpenHelper(this, ENCRYPTED ? "livre-db-encrypted" : "livre-db");

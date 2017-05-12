@@ -21,10 +21,11 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:25.2.0'
     compile 'org.greenrobot:greendao:3.1.0'
     compile 'net.zetetic:android-database-sqlcipher:3.5.6'
+    compile 'com.android.support:design:25.2.0'
     testCompile 'junit:junit:4.12'
-    /** tests part **/
-    testCompile "org.robolectric:robolectric:3.3.2"
+    testCompile 'org.robolectric:robolectric:3.3.2'
 }
